@@ -498,7 +498,7 @@ void Circuit::_handle_interior(
       vmap[*vi] = v;
     } else {
       throw CircuitInvalidity(
-          "Cannot dagger or transpose op: " + op->get_name());
+          "Cannot dagger or transpose op (XXX MODIFIED XXX): " + op->get_name());
     }
   }
 }
